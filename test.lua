@@ -5,7 +5,9 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d836cd48a63558
 d2c = getgenv().d2c
 
 
+print("im still here...")
 
+wait(5)
 
 
 
@@ -13,12 +15,13 @@ d2c = getgenv().d2c
 	getgenv().ownerid = 1224079
 getgenv().ownerusername = {'busyidclol', 'xcl', 'lazy',"staandz"}
 
+
 if d2c.username  then table.insert(getgenv().ownerusername,d2c.username) end
 
-
+print("testtt")
 
 	if game.PlaceId == 9825515356 then 
-
+	print("correct place...")
 		getgenv().ownerid = getgenv().ownerid or 1224079
 
 		local remote = game:GetService("ReplicatedStorage").MainFunction
@@ -45,7 +48,7 @@ if d2c.username  then table.insert(getgenv().ownerusername,d2c.username) end
 
 
 		end
-
+	print("beforeurl")
 	local url = "https://dtc-production-22eb.up.railway.app/KkiocHpYUjAzKsAyINhsCWjLOAYthiKB/"..script_key 
 
 		local function checkJoin()
