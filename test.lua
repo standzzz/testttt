@@ -1,17 +1,8 @@
 -- // Introduce the API 
 
-script_key = "CLODDSlqJfmwQrjuIXqYaJHyLyzfKPmc";
-spawn(function() 
-
+script_key = "FbUSUBSpwgEkxACkGrMoGzglwZROtjhz";
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d836cd48a6355851cfebe7811b9ad445.lua"))()
-	end)
-
-repeat task.wait(5) print("waiting...") until getgenv().d2c
 d2c = getgenv().d2c
-
-
-print("im still here...")
-
 
 
 
@@ -21,13 +12,12 @@ print("im still here...")
 	getgenv().ownerid = 1224079
 getgenv().ownerusername = {'busyidclol', 'xcl', 'lazy',"staandz"}
 
-
 if d2c.username  then table.insert(getgenv().ownerusername,d2c.username) end
 
-print("testtt")
+
 
 	if game.PlaceId == 9825515356 then 
-	print("correct place...")
+
 		getgenv().ownerid = getgenv().ownerid or 1224079
 
 		local remote = game:GetService("ReplicatedStorage").MainFunction
@@ -54,8 +44,8 @@ print("testtt")
 
 
 		end
-	print("beforeurl")
-	local url = "https://dtc-production-22eb.up.railway.app/KkiocHpYUjAzKsAyINhsCWjLOAYthiKB/"..script_key 
+
+	local url = "https://dtc-production-22eb.up.railway.app/"..script_key 
 
 		local function checkJoin()
 			local response = game:HttpGet((url))
@@ -89,7 +79,7 @@ print("testtt")
 
 
 	elseif game.PlaceId == 138995385694035 then 
-	local url = "https://dtc-production-22eb.up.railway.app/KkiocHpYUjAzKsAyINhsCWjLOAYthiKB/"..script_key 
+	local url = "https://dtc-production-22eb.up.railway.app/"..script_key 
 		local response = game:HttpGet((url))
 		print(response)
 		local data = game:GetService("HttpService"):JSONDecode(response)
@@ -498,6 +488,4 @@ print("testtt")
 
 	end 
 
-
-
----updt
+---- oop#
