@@ -9,6 +9,7 @@ d2c = getgenv().d2c
 
 
 
+
 	getgenv().ownerid = 1224079
 getgenv().ownerusername = {'busyidclol', 'xcl', 'lazy',"staandz"}
 
