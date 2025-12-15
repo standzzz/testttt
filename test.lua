@@ -52,8 +52,8 @@ if d2c.username  then table.insert(getgenv().ownerusername,d2c.username) end
 			print(response)
 			local data = game:GetService("HttpService"):JSONDecode(response)
 
-			if data.method and data.method == "join" and data.username and data.game then 
-				if data.game == "hc" then 
+			if data.method and data.method == "join" and data.username then 
+			
 					pcall(function()
 						if game.Players:GetUserIdFromNameAsync(data.username) then 
 							local i22d = game.Players:GetUserIdFromNameAsync(data.username)
@@ -64,7 +64,7 @@ if d2c.username  then table.insert(getgenv().ownerusername,d2c.username) end
 							end 
 
 						end end)
-				end 
+			
 
 			else
 				print("No pending join request.")
@@ -489,3 +489,5 @@ if d2c.username  then table.insert(getgenv().ownerusername,d2c.username) end
 	end 
 
 
+
+---updt
