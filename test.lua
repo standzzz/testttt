@@ -12,6 +12,7 @@ wait(5)
 
 
 
+
 	getgenv().ownerid = 1224079
 getgenv().ownerusername = {'busyidclol', 'xcl', 'lazy',"staandz"}
 
