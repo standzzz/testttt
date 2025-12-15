@@ -1,13 +1,18 @@
 -- // Introduce the API 
 
 script_key = "CLODDSlqJfmwQrjuIXqYaJHyLyzfKPmc";
+spawn(function() 
+
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d836cd48a6355851cfebe7811b9ad445.lua"))()
+	end)
+
+repeat task.wait(5) print("waiting...") until getgenv().d2c
 d2c = getgenv().d2c
 
 
 print("im still here...")
 
-wait(5)
+
 
 
 
